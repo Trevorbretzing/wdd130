@@ -1,0 +1,40 @@
+body{
+    font-size: 2em;
+}
+
+main{ 
+    background-color: lightblue;
+width: 80vw;
+margin: 0 auto;
+text-align: center;
+}
+
+img{
+    width: 50%;
+}
+
+
+#green{background-color: lightgreen;}
+
+p{
+    color: hotpink;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
+
+footer p{
+    color: black;
+    text-align: center;
+}
+a:hover{
+    background-color: chartreuse;
+    color: lavender;
+}
+header nav{
+    text-align: center;
+}
+main h1{
+    color: gray;
+    font-size: 40x;
+}
