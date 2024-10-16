@@ -8,10 +8,7 @@
     height: 725px;
 
 }
-#centered{
-    text-align: center;
-    margin: 0 auto;
-}
+
 
 #background {
     height: 725px;
@@ -27,11 +24,20 @@ header{
 nav a{
     color: white;
     text-align: center;
+    margin: 0 auto;
     color: #fcfbfb;
     text-decoration: none;
 }
 nav a:hover{
     color: #00A6FB;
+}
+#hero-msg h1{
+    text-align: center;
+    margin: 0 auto;
+}
+#hero-msg h4{
+    text-align: center;
+    margin: 0 auto;
 }
 
 #hero-img {
@@ -83,3 +89,15 @@ footer p {
 footer p a:hover {
     text-decoration: underline;
 }    
+.button-box{
+    
+        text-align: center;
+        margin: 0 auto;
+    
+}
+main section{
+    
+        text-align: center;
+        margin: 0 auto;
+    
+}
