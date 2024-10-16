@@ -1,9 +1,85 @@
 #content{
     max-width: 1600px;
     margin: 0 auto;
+  
 }
 
 #background{
     height: 725px;
 
 }
+#centered{
+    text-align: center;
+    margin: 0 auto;
+}
+
+#background {
+    height: 725px;
+
+}
+
+body{
+background-color: white;
+}
+header{
+    background-color: #051923;
+}
+nav a{
+    color: white;
+    text-align: center;
+    color: #fcfbfb;
+    text-decoration: none;
+}
+nav a:hover{
+    color: #00A6FB;
+}
+
+#hero-img {
+    width: 100%;
+}
+.book{
+    background-color: white;
+    color: black;
+    text-decoration: none;
+}
+.join{
+    background-color: white;
+    color: black;
+    text-decoration: none;
+}
+.book:hover{
+    color: #00A6FB;
+   
+}
+.join:hover{
+    color: #00A6FB;
+}
+#background{
+    background-color:#00A6FB;
+}
+.msg{
+    background-color: white;
+}
+footer{
+    background-color: #051923;
+    text-decoration: none;
+    text-align: center;
+    margin:0 auto;
+}
+.home-title{
+    color: white;
+}
+h4{
+    color:green;
+}
+
+footer a{
+    text-decoration: none;
+}
+ 
+footer p {
+    font-size: 1.2em;
+} 
+footer p a:hover {
+    text-decoration: underline;
+}    
