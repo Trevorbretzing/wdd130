@@ -1,0 +1,31 @@
+.blog-stats{
+    flex: 1;
+   display: grid;
+   grid-template-columns: repeat(3, 1fr) ;
+   background-color: grey;
+   text-align: center;
+   color: white;
+   gap: 1px; 
+  border: 2px solid grey; 
+}
+.blog-post{
+    max-width: 400px;
+    margin: 0 auto;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.read{
+background-color: darkslateblue;
+}
+.views{
+    background-color: darkslateblue;
+}
+.comments{background-color: darkslateblue;}
+h1{
+    text-align: center;
+    font-size: 2em;
+}
+img{
+    width: 400px;
+}
+
