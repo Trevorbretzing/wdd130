@@ -1,0 +1,49 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0" version="24.8.4">
+  <diagram name="Page-1" id="OpPjiKtOzsRCR5wxwi8u">
+    <mxGraphModel dx="1965" dy="1253" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="SIhDfvAULP_4-FIlNiVw-1" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;strokeWidth=1;shape=mxgraph.mockup.graphics.simpleIcon;strokeColor=#999999;" vertex="1" parent="1">
+          <mxGeometry width="120" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="SIhDfvAULP_4-FIlNiVw-17" value="" style="swimlane;shape=mxgraph.bootstrap.anchor;strokeColor=#666666;fillColor=#ffffff;fontColor=#0000FF;fontStyle=0;childLayout=stackLayout;horizontal=0;startSize=0;horizontalStack=1;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" width="730" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="SIhDfvAULP_4-FIlNiVw-18" value="home" style="text;strokeColor=#008CFF;align=center;verticalAlign=middle;spacingLeft=10;spacingRight=10;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fillColor=#008CFF;fontColor=#ffffff;fontSize=17;" vertex="1" parent="SIhDfvAULP_4-FIlNiVw-17">
+          <mxGeometry width="260" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="SIhDfvAULP_4-FIlNiVw-19" value="Our Mission" style="text;strokeColor=inherit;align=center;verticalAlign=middle;spacingLeft=10;spacingRight=10;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fillColor=inherit;fontColor=inherit;fontSize=17;" vertex="1" parent="SIhDfvAULP_4-FIlNiVw-17">
+          <mxGeometry x="260" width="240" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="SIhDfvAULP_4-FIlNiVw-20" value="Our Product" style="text;strokeColor=inherit;align=center;verticalAlign=middle;spacingLeft=10;spacingRight=10;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fillColor=inherit;fontColor=inherit;fontSize=17;" vertex="1" parent="SIhDfvAULP_4-FIlNiVw-17">
+          <mxGeometry x="500" width="230" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="SIhDfvAULP_4-FIlNiVw-23" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;strokeWidth=1;shape=mxgraph.mockup.graphics.simpleIcon;strokeColor=#999999;" vertex="1" parent="1">
+          <mxGeometry y="150" width="850" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="SIhDfvAULP_4-FIlNiVw-24" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;strokeWidth=1;shape=mxgraph.mockup.graphics.simpleIcon;strokeColor=#999999;" vertex="1" parent="1">
+          <mxGeometry x="480" y="640" width="370" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="SIhDfvAULP_4-FIlNiVw-26" value="&lt;span id=&quot;docs-internal-guid-eb44f626-7fff-8385-63ba-6f814ebc32e9&quot;&gt;&lt;span style=&quot;font-size: 11pt; font-family: Arial, sans-serif; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;At SHRD, sustainability and the ski community go hand in hand. Our main mission is to create high-quality, high-performance ski and snowboard gear with an environmentally positive impact. Whether you are a new skier experiencing the mountain for the first time or a high-performance pro athlete, SHRD is for YOU! Each piece of clothing is meticulously handcrafted using eco-friendly materials and sustainable manufacturing processes. The best part is that a portion of your purchase will go towards forest preservation and wildfire prevention. Each and every single one of our products is created to be strong and durable, but on the off chance that your SHRD apparel breaks, tears, or gets worn out, we offer free replacements as long as you return the jacket to us so we can recycle it properly. SHRD isn’t just about clothing—it’s about ensuring our environment and mountains are just as beautiful and pristine for future generations of little shredders!&lt;/span&gt;&lt;/span&gt;" style="text;spacingTop=-5;whiteSpace=wrap;html=1;align=left;fontSize=12;fontFamily=Helvetica;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="690" width="410" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="SIhDfvAULP_4-FIlNiVw-27" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="1040" width="850" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SIhDfvAULP_4-FIlNiVw-28" value="" style="swimlane;shape=mxgraph.bootstrap.anchor;strokeColor=#666666;fillColor=#ffffff;fontColor=#0000FF;fontStyle=0;childLayout=stackLayout;horizontal=0;startSize=0;horizontalStack=1;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="1040" width="290" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SIhDfvAULP_4-FIlNiVw-29" value="Contact us" style="text;strokeColor=#008CFF;align=center;verticalAlign=middle;spacingLeft=10;spacingRight=10;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fillColor=#008CFF;fontColor=#ffffff;fontSize=17;" vertex="1" parent="SIhDfvAULP_4-FIlNiVw-28">
+          <mxGeometry width="125" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SIhDfvAULP_4-FIlNiVw-30" value="FAQ" style="text;strokeColor=inherit;align=center;verticalAlign=middle;spacingLeft=10;spacingRight=10;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fillColor=inherit;fontColor=inherit;fontSize=17;" vertex="1" parent="SIhDfvAULP_4-FIlNiVw-28">
+          <mxGeometry x="125" width="165" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SIhDfvAULP_4-FIlNiVw-34" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;strokeWidth=1;shape=mxgraph.mockup.graphics.simpleIcon;strokeColor=#999999;" vertex="1" parent="1">
+          <mxGeometry y="1040" width="160" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
