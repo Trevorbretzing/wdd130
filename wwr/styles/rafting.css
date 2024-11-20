@@ -390,3 +390,93 @@ form {
 }
 
 /* page2 styles-------------------------------------------------------------------------------------*/
+/* .page2 container - use grid layout and center items */
+.page2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto auto auto; /* Ensure there are 3 rows */
+    margin: 0 auto;
+    justify-items: center; 
+    align-items: center; 
+    text-align: center; 
+}
+
+/* Snake river styling */
+.snake {
+    grid-column: 2 / 3;
+    grid-row: 1;
+    font-family: 'Rock Salt', Arial, sans-serif;
+    font-size: 2em;
+    padding: 0;
+    margin: 0;
+    color: #00A6FB;
+}
+
+/* Colorado river styling */
+.colorado {
+    grid-column: 2 / 3;
+    grid-row: 3;
+    font-family: 'Rock Salt', Arial, sans-serif;
+    font-size: 2em;
+    padding: 0;
+    margin: 0;
+    color: #00A6FB;
+}
+.salmon{
+    grid-column: 2 / 3;
+    grid-row: 5;
+    font-family: 'Rock Salt', Arial, sans-serif;
+    font-size: 2em;
+    color: #00A6FB;
+}
+/* River1 description styling */
+.river1-p {
+    grid-column: 2/ 3;
+    grid-row: 2;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+.river2-p{
+    grid-column: 2 / 3;
+    grid-row: 4;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    
+}
+.river3-p{
+    grid-column: 2 / 3;
+    grid-row: 6;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+/* Additional styling for the footer, if needed */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f1f1f1;
+}
+
+footer a {
+    color: #000;
+    text-decoration: none;
+    padding: 5px;
+} 
+.river1-img{
+    grid-column: 3;
+    grid-row: 2;
+    border: solid #00A6FB 10px;
+    border-radius: 20px;
+}
+.river2-img{
+    grid-column: 3;
+    grid-row: 4;
+    border: solid #00A6FB 10px;
+    border-radius: 20px;
+}
+.river3-img{
+    grid-column: 3;
+    grid-row: 6;
+    border: solid #00A6FB 10px;
+    border-radius: 20px;
+}
