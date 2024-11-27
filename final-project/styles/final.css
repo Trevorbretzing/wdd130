@@ -1,0 +1,8 @@
+header{
+background-color: #8DAA91;
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+}
+.logo{
+    width: 100px;
+}
