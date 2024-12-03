@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>week 12 component activity</title>
+    <link rel="stylesheet" href="styles/week12.css">
+</head>
+
+<body>
+    <h1>Buffalo bills</h1>
+    <button class="accordion">History of the Buffalo Bills</button>
+    <div class="panel">
+        <p>The Buffalo Bills were founded in 1960 as part of the American Football League (AFL) and quickly became one
+            of the league's most successful teams. Named after the famous frontiersman Buffalo Bill Cody, the franchise
+            became a symbol of pride for the Western New York community. Over the years, the Bills have built a rich
+            legacy, including four consecutive Super Bowl appearances in the 1990s, and a passionate fan base that is
+            renowned for its loyalty and enthusiasm.</p>
+    </div>
+
+    <button class="accordion">Key Players and Legends</button>
+    <div class="panel">
+        <p>LThe Buffalo Bills have produced many legendary players who have shaped the team's identity. Quarterback Jim
+            Kelly led the Bills to four straight Super Bowl appearances in the 1990s, earning a spot in the Pro Football
+            Hall of Fame. Running back Thurman Thomas, wide receiver Andre Reed, and defensive lineman Bruce Smith are
+            also iconic figures who helped elevate the team to national prominence. These athletes, along with many
+            others, have left an indelible mark on the franchise's history.</p>
+    </div>
+
+    <button class="accordion">The Fan Experience</button>
+    <div class="panel">
+        <p>The Buffalo Bills are known for having one of the most dedicated and passionate fanbases in all of
+            professional sports. Fans pack Highmark Stadium each season, creating an electric atmosphere that is unique
+            to Buffalo. The "Bills Mafia" spirit is evident both in the stands and on social media, as supporters rally
+            together through thick and thin. From tailgating traditions to community outreach, the Bills' fans continue
+            to play a vital role in the team's success and culture.</p>
+    </div>
+</body>
+<script>
+    var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    /* Toggle between adding and removing the "active" class,
+    to highlight the button that controls the panel */
+    this.classList.toggle("active");
+
+    /* Toggle between hiding and showing the active panel */
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+  for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight) {
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    }
+  });
+}
+}
+</script>
+</html>
