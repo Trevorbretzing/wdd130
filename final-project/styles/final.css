@@ -1,8 +1,73 @@
-header{
-background-color: #8DAA91;
-display: grid;
-grid-template-columns: repeat(3, 1fr);
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rock+Salt&display=swap');
+
+header {
+    background-color: #8DAA91;
+    display: grid;
+    grid-template-columns: 150px 1fr 1fr 1fr;
+    align-items: center;
+    padding: 10px; /* Optional: Adds space around header elements */
+    width: 100%; /* Ensure header spans full width */
 }
-.logo{
+
+body {
+    background-color: white;
+    font-family: "Roboto", Helvetica, sans-serif;
+    color: black;
+    margin: 0;
+    display: grid;
+    grid-template-rows: auto 1fr auto; /* Ensures the content area takes up available space */
+    height: 100vh; /* Ensures the body takes full height of the viewport */
+}
+
+.logo {
     width: 100px;
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.link1 {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.links1, .links2, .links3 {
+    text-decoration: none;
+    text-align: center;
+    font-size: 25px;
+    justify-self: center;
+    align-self: center;
+    color: white;
+}
+
+.link1 .links2, .links3 {
+    font-size: 25px;
+}
+
+.hero {
+    width: 100%;
+    height: auto;
+    grid-column: 1 / 3;
+    grid-row: 2 / 3;
+    justify-self: center;
+    margin-bottom: 20px; /* Adds space between hero and img1 */
+}
+
+.phome {
+    grid-row: 5;
+    grid-column: 1 / 2; /* Make sure it takes up half of the hero */
+}
+
+.img1 {
+    grid-row: 5;
+    grid-column: 2 / 3; /* Ensure the image takes up the other half of the hero */
+    width: 400px;
+}
+
+footer {
+    background-color: #8DAA91; /* Make footer match header */
+    padding: 10px; /* Optional: Adds space around footer elements */
+    text-align: center;
+    grid-column: 1 / -1; /* Ensures footer spans full width */
+    grid-row: 6; /* Ensures footer stays at the bottom */
+    width: 100%; /* Ensure footer spans full width */
 }
