@@ -5,8 +5,8 @@ header {
     display: grid;
     grid-template-columns: 150px 1fr 1fr 1fr;
     align-items: center;
-    padding: 10px; /* Optional: Adds space around header elements */
-    width: 100%; /* Ensure header spans full width */
+    padding: 10px; 
+    width: 100%; 
 }
 
 body {
@@ -15,8 +15,8 @@ body {
     color: black;
     margin: 0;
     display: grid;
-    grid-template-rows: auto 1fr auto; /* Ensures the content area takes up available space */
-    height: 100vh; /* Ensures the body takes full height of the viewport */
+    grid-template-rows: auto 1fr auto;
+    height: 100vh;
 }
 
 .logo {
@@ -49,25 +49,25 @@ body {
     grid-column: 1 / 3;
     grid-row: 2 / 3;
     justify-self: center;
-    margin-bottom: 20px; /* Adds space between hero and img1 */
+    margin-bottom: 20px; 
 }
 
 .phome {
     grid-row: 5;
-    grid-column: 1 / 2; /* Make sure it takes up half of the hero */
+    grid-column: 1 / 2; 
 }
 
 .img1 {
     grid-row: 5;
-    grid-column: 2 / 3; /* Ensure the image takes up the other half of the hero */
+    grid-column: 2 / 3; 
     width: 400px;
 }
 
 footer {
-    background-color: #8DAA91; /* Make footer match header */
-    padding: 10px; /* Optional: Adds space around footer elements */
+    background-color: #8DAA91; 
+    padding: 10px;
     text-align: center;
-    grid-column: 1 / -1; /* Ensures footer spans full width */
-    grid-row: 6; /* Ensures footer stays at the bottom */
-    width: 100%; /* Ensure footer spans full width */
+    grid-column: 1 / -1; 
+    grid-row: 6; 
+    width: 100%; 
 }
