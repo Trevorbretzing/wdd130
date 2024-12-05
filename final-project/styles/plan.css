@@ -15,15 +15,15 @@ Fonts are separated by a | */
   --paragraph-font: arial, Helvetica, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: #8DAA91;  /* headlines on a white background */ 
-  --headline-color-on-color: #8DAA91; /* headlines on a colored background */ 
-  --paragraph-color-on-white: #8DAA91; /* paragraph text on a white background */ 
-  --paragraph-color-on-color: #8DAA91; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #453643  ;
-  --nav-link-color: #28112B;
-  --nav-background-color: #8DAA91;
+  --headline-color-on-white: #6369D1;  /* headlines on a white background */ 
+  --headline-color-on-color: #60E1E0; /* headlines on a colored background */ 
+  --paragraph-color-on-white: black; /* paragraph text on a white background */ 
+  --paragraph-color-on-color: #fdf7fa; /* paragraph text on a colored background */ 
+  --paragraph-background-color:  #C6AC8F ;
+  --nav-link-color: black;
+  --nav-background-color: #6369D1;
   --nav-hover-link-color: white;
-  --nav-hover-background-color: #28112B;
+  --nav-hover-background-color: black;
 }
 
 
@@ -66,9 +66,9 @@ header > h1, header > h2 {
 }
 
 p {
-  font-family: var(--paragraph-font);
-  color: var(--paragraph-color-on-white);
-  padding: 1em;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  padding: 2em;
 }
 .colors {
   width: 100%;
@@ -175,4 +175,7 @@ nav a:hover {
   grid-area: right;
   border-top: 1px solid;
   border-right: 1px solid;
+}
+.fix{
+  grid-column: 1/5;
 }
